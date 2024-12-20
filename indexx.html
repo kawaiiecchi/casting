@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Casting Anonyme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #FFD700;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000;
+            color: #FFD700;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #FFD700;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+            border-bottom: 1px solid #FFD700;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #FFD700;
+            color: #000;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #111;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+        }
+        .form-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #000;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+        .form-container input,
+        .form-container textarea,
+        .form-container select,
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #FFD700;
+            border-radius: 5px;
+            background-color: #111;
+            color: #FFD700;
+        }
+        .form-container button {
+            background-color: #FFD700;
+            color: #000;
+            font-weight: bold;
+        }
+        .form-container button:hover {
+            background-color: #000;
+            color: #FFD700;
+            border: 1px solid #FFD700;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #FFD700;
+            border-top: 2px solid #FFD700;
+        }
+        h2 {
+            color: #FFD700;
+        }
+        label {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre site de casting</h1>
+        <p>Réservé aux personnes majeures et averties</p>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#formules">Formules</a>
+        <a href="#casting">Casting</a>
+        <a href="#preferences">Préférences sexuelles</a>
+        <a href="#partenariat">Partenariat</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="accueil">
+        <h2>Devenez actrice dans nos vidéos érotiques et anonymes</h2>
+        <p>Un cadre respectueux, éthique et totalement anonyme. Aucun contenu n'est publié sans votre consentement.</p>
+    </section>
+
+    <section id="formules">
+        <h2>Nos formules</h2>
+        <ul>
+            <li><strong>Boudoir</strong>: Photos ou vidéos sensuelles mettant en avant l'élégance.</li>
+            <li><strong>Érotique</strong>: Contenus suggestifs adaptés à vos limites.</li>
+            <li><strong>Porno</strong>: Scènes explicites personnalisées.</li>
+            <li><strong>BDSM</strong>: Mise en scène de thématiques BDSM selon vos envies.</li>
+            <li><strong>Soumission légère</strong>: Pratiques douces comme fétichisme des pieds ou obéissance.</li>
+            <li><strong>Pieds</strong>: Photos et vidéos autour du fétichisme des pieds.</li>
+        </ul>
+    </section>
+
+    <section id="casting">
+        <h2>Postuler pour un casting</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <label for="name">Nom et prénom:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="city">Ville de résidence:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="age">Âge:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="preferences">Préférences sexuelles:</label>
+                <textarea id="preferences" name="preferences" placeholder="Décrivez vos préférences..."></textarea>
+
+                <label for="files">Photos:</label>
+                <input type="file" id="files" name="files" multiple>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="preferences">
+        <h2>Préférences sexuelles</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <p>Sélectionnez vos préférences pour mieux personnaliser votre expérience :</p>
+                <label><input type="checkbox" name="preferences[]" value="Vanille"> Sexe vanille (relations classiques)</label>
+                <label><input type="checkbox" name="preferences[]" value="Lingerie"> Jeux en lingerie</label>
+                <label><input type="checkbox" name="preferences[]" value="Roleplay"> Roleplay</label>
+                <label><input type="checkbox" name="preferences[]" value="Bondage"> Bondage</label>
+                <label><input type="checkbox" name="preferences[]" value="Domination"> Domination</label>
+                <label><input type="checkbox" name="preferences[]" value="Soumission"> Soumission</label>
+                <label><input type="checkbox" name="preferences[]" value="Fétichisme des pieds"> Fétichisme des pieds</label>
+                <label><input type="checkbox" name="preferences[]" value="Jeux BDSM"> Jeux BDSM (hard ou soft)</label>
+                <label><input type="checkbox" name="preferences[]" value="Exhibition"> Exhibition</label>
+                <label><input type="checkbox" name="preferences[]" value="Scènes explicites"> Scènes explicites (porno)</label>
+                <label><input type="checkbox" name="preferences[]" value="Scénarios complexes"> Scénarios complexes</label>
+                <button type="submit">Envoyer vos préférences</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="partenariat">
+        <h2>Programme de parrainage</h2>
+        <p>Recommandez vos amies et recevez jusqu'à 10% des revenus générés par leurs vidéos.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Email: contact@casting-anonyme.fr</p>
+        <p>Téléphone: 06 12 34 56 78</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Casting Anonyme. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
